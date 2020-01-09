@@ -19,6 +19,9 @@ const getRandomArbitrary = (min, max) => {
 const reset = () => {
 	document.getElementById('petition').innerText = "";
 	document.getElementById('question').innterText = "";
+	answer = "";
+	freezeMode = false;
+	proxyModeSwitch = [false, false];
 };
 
 const initializeKeyUpEvent = () => {
